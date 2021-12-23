@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 const contextOptions = {
-  baseUrl: 'https://app-4gaemze08wlj.frontegg.com',
+  baseUrl: 'https://app-tal-hazi.frontegg.com',
 };
 
 ReactDOM.render(
