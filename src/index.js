@@ -12,9 +12,11 @@ const contextOptions = {
   baseUrl: 'https://app-tal-hazi.frontegg.com',
 };
 
+const headerImage = 'https://assets.frontegg.com/public-frontegg-assets/acme-logo.svg';
+
 ReactDOM.render(
   <BrowserRouter>
-     <FronteggProvider contextOptions={contextOptions}>
+    <FronteggProvider contextOptions={contextOptions} headerImage={headerImage}>
         <App />
      </FronteggProvider>
   </BrowserRouter>,
